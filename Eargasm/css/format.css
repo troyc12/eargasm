@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+body {
+	background-color: #323232;
+}
+
+.nav {
+	text-align: center;
+	
+}	
+
+.nav a {
+	color: #ffffff;
+	padding: 0 50px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 2px solid #403838;
+	text-decoration: none;	
+}
+
+
+
+/* mouse over link */
+.nav a:hover {
+    	color: #482d4b;
+	text-decoration: underline;
+	background-color: #737373;
+	
+}
+
+/* selected link */
+.nav a:active {
+    	color: #703378;
+    	text-decoration: underline;
+
+}
+
+.nav li{
+	display: inline;
+	position: relative;
+}
+
+
+
+.jumbotron {
+	background-image:url(../images/Untitled.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 500px;
+	border: 1px solid #737373;
+}
+
+
+.jumbotron .container {
+	position: relative;
+	text-align: center;
+	top: 50px;
+}
+
+
+.jumbotron h1 {
+	color: #ffffff;
+	font-size: 100px;
+	font-family: Arial;
+	font-weight: bold;		
+}
+
+
+.jumbotron p {
+	color: #ffffff;
+	font-size: 25px;
+	font-family: Verdana;
+}
+
+
+.music {
+	background-color: #9c9c9c;
+	border: 1px solid #737373;
+	padding: 0px 0px 15px 15px;
+	margin-top: 20px;
+	-webkit-column-count: 2;
+    	-webkit-column-gap: 20px;
+   	-moz-column-count: 2;
+    	-moz-column-gap: 20px;
+    	column-count: 2;
+    	column-gap: 20px;	
+    }
+
+
+.music h3 {
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+
+.music p {
+	font-family: Verdana;
+
+}  
+
+.music ul li a {
+	color: #0567c7;
+	padding: 0 50px;
+	text-decoration: none;
+
+}
+
+
+.music li {
+	
+	display: inline;
+	font-size: 20px;
+	
+}
+
+
+#h2p2 {
+
+	padding: 40px 0 0 0;
+}
+
+/*------------------------------------------------------*/
+
+
+
+#bod{
+	background-color: #323232;
+	
+	
+}
+
+
+#h3p3{
+
+	margin-left: 25px;
+	padding: 0 0 0 25px;
+}
+
+
+
+#h3p3 h2 {
+	font-family: Arial;
+	font-size: 29px;
+}
+
+
+#h3p3 p {
+	font-family: Helvetica;
+	font-size: 18px;
+}
+
+
+
+.list {
+	
+	margin-left: 25px;
+	padding: 0 0 0 25px;
+	-webkit-column-count: 3;
+    	-webkit-column-gap: 20px;
+   	-moz-column-count: 3;
+    	-moz-column-gap: 20px;
+    	column-count: 3;
+    	column-gap: 20px;
+}
+
+
+
+.list h3 {
+	font-family: Arial;
+	font-size: 17px;
+}
+
+.list li {
+	font-family: Verdana;
+}
+
+
+/* mouse over link */
+.list li:hover {
+    	color: #703378;
+	text-decoration: underline;
+
+}
